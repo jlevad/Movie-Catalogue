@@ -16,4 +16,4 @@ self.addEventListener('fetch', (event) => {
 
   event.respondWith(fetch(event.request));
   // TODO: Add/get fetch request to/from caches
-})
+});
